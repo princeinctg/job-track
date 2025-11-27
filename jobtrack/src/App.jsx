@@ -443,9 +443,9 @@ const Footer = () => (
 export default function App() {
   const [user, setUser] = useState(null);
   const [authLoading, setAuthLoading] = useState(true);
-  const [view, setView] = useState('HOME'); // Router State
-  const [viewParams, setViewParams] = useState({}); // Router Params
-  const [selectedJob, setSelectedJob] = useState(null); // For Modal
+  const [view, setView] = useState('HOME'); 
+  const [viewParams, setViewParams] = useState({}); 
+  const [selectedJob, setSelectedJob] = useState(null); 
 
   // --- AUTH  ---
   useEffect(() => {
